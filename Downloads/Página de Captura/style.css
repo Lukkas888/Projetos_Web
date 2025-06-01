@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: black;
+
+}   
+
+.container{
+max-width: 1000px;
+margin: auto;
+
+}
+
+header{
+    color: white;
+    background-color:#48c5c3;
+    font-weight: 700px;
+    text-align: center; 
+    padding: 10px;
+
+}
+
+.titulo{
+  font-size: 24px;
+} 
+
+
+
+section{
+    padding: 20px;
+    background-image: url('imagens/people.jpg');
+    background-size: cover; 
+    overflow: hidden;
+
+    
+} 
+    
+
+.formulario{
+    max-width: 230px; 
+    color: white;
+    background-color: #ffffffbb; 
+    padding: 20px;
+    float: right;
+} 
+
+h2{
+    font-size: 16px;
+} 
+
+.mb{
+    margin-bottom: 15px;
+    color: black;
+} 
+
+input , select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+} 
+
+input[type="submit"]{
+    color: white;
+    background-color: #48c5c3;
+    font-weight: bold;
+
+} 
+
+select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+
+    background-image: url('imagens/arrow.jpg');
+    background-repeat: no-repeat;
+
+    background-position: calc(100% - 10px ) center;
+} 
+
+.rodape{
+ max-width: 1000px;
+
+margin: auto;
+    background-color: #212323;
+    text-align: center;
+    /*padding: 20px;*/ 
+    
+
+} 
+
+.face{
+    width: 160px; 
+    
+} 
+
+.descricao{
+
+    display: inline-block;
+    text-align: left;
+    color: white;
+    max-width: 40%;
+    padding: 40px;
+
+} 
+
+.descricao h3 , .descricao p{
+
+    margin-bottom: 20px;
+}

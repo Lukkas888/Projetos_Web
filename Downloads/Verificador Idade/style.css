@@ -1,0 +1,35 @@
+body{
+background-color: aqua; 
+
+
+}
+
+header{
+
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+color: black;
+background-color: white;
+width: 500px;
+height: 400px;
+border-radius: 10px; 
+ font: normal 15pt Arial ;
+line-height: 30px; 
+margin: auto;
+text-align: center;
+
+
+}
+
+
+
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+
