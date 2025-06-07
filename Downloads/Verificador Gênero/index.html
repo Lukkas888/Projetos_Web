@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de Gênero</title> 
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1>Verificador de Gênero</h1>
+    <section>
+        <div class="form-group"> 
+            <label for="idade">Ano de nascimento:</label> 
+            <input type="number" id="idade" min="1900" max="2024" placeholder="Ex: 1990"> 
+        </div>
+        
+        <div class="form-group"> 
+            <p>Sexo:</p>
+            <div class="radio-group"> 
+                <div class="radio-item">
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="mas">Masculino</label> 
+                </div>
+                <div class="radio-item">
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label> 
+                </div>
+            </div>
+        </div>
+        
+        <input type="button" value="Verificar" onclick="enviar()"> 
+        
+        <div id="res">
+            Preencha os dados acima para verificar o gênero... 
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Inova|Tecnologia</p>
+    </footer>
+
+    <script src="arquivo.js">
+    
+    </script>
+</body>
+</html>
